@@ -2,27 +2,37 @@
 
 Advertise the popularity of your library using the NerdyData Badge!
 
-[![NerdyData Popularity](https://nerdydata.com/badge/cdn.optimizely.com)](https://nerdydata.com/search?query=cdn.optimizely.com)
-
-## Installation Instructions
-
-Replace `{{library.js}}` with your library or search term (url encode special characters).
-
-`https://nerdydata.com/badge/{{library.js}}`
-
-### Github Markup
+## Github Badge:
 
 ```
-[![NerdyData Popularity](https://nerdydata.com/badge/{{library.js}})](https://nerdydata.com/search?query={{library.js}})
+[![NerdyData Popularity](https://badges.nerdydata.com/{{library.js}})](https://nerdydata.com/search?query={{library.js}})
+
+- or -
+
+[![NerdyData Popularity](https://badges.nerdydata.com/{{report_id}})](https://nerdydata.com/technology-reports/{{report_id}})
 ```
 
-### HTML Markup
+
+## HTML Markup
 
 ```html
 <a href="https://nerdydata.com/search?query={{library.js}}" alt="NerdyData Badge">
-  <img src="https://nerdydata.com/badge/{{library.js}}">
+  <img src="https://badges.nerdydata.com/{{library.js}}">
+</a>
+
+- or -
+
+<a href="https://nerdydata.com/search?query={{report_id}}" alt="NerdyData Badge">
+  <img src="https://badges.nerdydata.com/{{report_id}}">
 </a>
 ```
+
+## Examples
+
+[![NerdyData Popularity](https://badges.nerdydata.com/cdn.optimizely.com)](https://nerdydata.com/search?query=cdn.optimizely.com)
+
+
+[![NerdyData Popularity](https://badges.nerdydata.com/78649239-9bbe-4383-a09c-f65e072e54d8)](https://nerdydata.com/technology-reports/optimizely/78649239-9bbe-4383-a09c-f65e072e54d8)
 
 
 ----
