@@ -1,29 +1,48 @@
-# NerdyData.com Popularity Badge
+# NerdyData.com Web Popularity Badge
 
-Advertise the popularity of your library using the NerdyData Badge!
+Show users how many websites use your library or code!
 
-[![NerdyData Popularity](https://nerdydata.com/badge/cdn.optimizely.com)](https://nerdydata.com/search?query=cdn.optimizely.com)
+[![NerdyData Popularity](https://badges.nerdydata.com/cdn.optimizely.com)](https://nerdydata.com/search?query=cdn.optimizely.com)
 
-## Installation Instructions
+## Getting Started
 
-Replace `{{library.js}}` with your library or search term (url encode special characters).
+### Code Search
 
-`https://nerdydata.com/badge/{{library.js}}`
+Simply replace `library.js` with your unique filename or search term. Be sure to url encode special characters
 
-### Github Markup
+> `https://badges.nerdydata.com/SEARCH_TERM_OR_REPORT_ID`
+
+*Markdown format*:
 
 ```
-[![NerdyData Popularity](https://nerdydata.com/badge/{{library.js}})](https://nerdydata.com/search?query={{library.js}})
+[![NerdyData Popularity](https://badges.nerdydata.com/library.js)](https://nerdydata.com/search?query=library.js)
 ```
 
-### HTML Markup
+*HTML format*:
 
 ```html
-<a href="https://nerdydata.com/search?query={{library.js}}" alt="NerdyData Badge">
-  <img src="https://nerdydata.com/badge/{{library.js}}">
+<a href="https://nerdydata.com/search?query=library.js" alt="NerdyData Badge">
+  <img src="https://badges.nerdydata.com/library.js"/>
 </a>
 ```
 
+### Technology Reports
+
+Use the Report ID found on [NerdyData technology](https://nerdydata.com/technology-reports?utm_source=github.com) and use that as the search term:
+
+*Markdown format*:
+
+```
+[![NerdyData Popularity](https://badges.nerdydata.com/78649239-9bbe-4383-a09c-f65e072e54d8)](https://nerdydata.com/technology-reports/optimizely/78649239-9bbe-4383-a09c-f65e072e54d8)
+```
+
+*HTML format*:
+
+```html
+<a href="https://nerdydata.com/technology-reports/optimizely/78649239-9bbe-4383-a09c-f65e072e54d8" alt="NerdyData Badge">
+  <img src="https://badges.nerdydata.com/78649239-9bbe-4383-a09c-f65e072e54d8"/>
+</a>
+```
 
 ----
 
