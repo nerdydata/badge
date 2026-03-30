@@ -15,8 +15,7 @@ Simply replace `library.js` with your unique filename or search term. Be sure to
 *Markdown format*:
 
 ```
-[![NerdyData Popularity](https://badges.nerdydata.com/library.js)](https://badges.nerdydata.com/library
-js/report)
+[![NerdyData Popularity](https://badges.nerdydata.com/library.js)](https://badges.nerdydata.com/library.js/report)
 ```
 
 *HTML format*:
