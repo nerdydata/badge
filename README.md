@@ -2,7 +2,7 @@
 
 Show users how many websites use your library or code!
 
-[![NerdyData Popularity](https://badges.nerdydata.com/cdn.optimizely.com)](https://nerdydata.com/search?query=cdn.optimizely.com)
+[![NerdyData Popularity](https://badges.nerdydata.com/cdn.optimizely.com)](https://badges.nerdydata.com/cdn.optimizely.com/report)
 
 ## Getting Started
 
@@ -15,13 +15,14 @@ Simply replace `library.js` with your unique filename or search term. Be sure to
 *Markdown format*:
 
 ```
-[![NerdyData Popularity](https://badges.nerdydata.com/library.js)](https://nerdydata.com/search?query=library.js)
+[![NerdyData Popularity](https://badges.nerdydata.com/library.js)](https://badges.nerdydata.com/library
+js/report)
 ```
 
 *HTML format*:
 
 ```html
-<a href="https://nerdydata.com/search?query=library.js" alt="NerdyData Badge">
+<a href="https://badges.nerdydata.com/library.js/report" alt="NerdyData Badge">
   <img src="https://badges.nerdydata.com/library.js"/>
 </a>
 ```
@@ -33,13 +34,13 @@ Use the Report ID found on [NerdyData technology](https://nerdydata.com/technolo
 *Markdown format*:
 
 ```
-[![NerdyData Popularity](https://badges.nerdydata.com/78649239-9bbe-4383-a09c-f65e072e54d8)](https://nerdydata.com/technology-reports/optimizely/78649239-9bbe-4383-a09c-f65e072e54d8)
+[![NerdyData Popularity](https://badges.nerdydata.com/78649239-9bbe-4383-a09c-f65e072e54d8)](https://badges.nerdydata.com/78649239-9bbe-4383-a09c-f65e072e54d8/report)
 ```
 
 *HTML format*:
 
 ```html
-<a href="https://nerdydata.com/technology-reports/optimizely/78649239-9bbe-4383-a09c-f65e072e54d8" alt="NerdyData Badge">
+<a href="https://badges.nerdydata.com/78649239-9bbe-4383-a09c-f65e072e54d8/report" alt="NerdyData Badge">
   <img src="https://badges.nerdydata.com/78649239-9bbe-4383-a09c-f65e072e54d8"/>
 </a>
 ```
